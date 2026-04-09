@@ -6,6 +6,7 @@ import Transformations from "./components/Transformations";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Story from "./components/story";
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <Story />
         <Services />
         <Transformations />
         <Testimonials />
